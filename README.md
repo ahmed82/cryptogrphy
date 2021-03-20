@@ -1,4 +1,5 @@
 # cryptogrphy
+## rsa1024
 ```
 $ openssl speed rsa1024
 ```
@@ -11,4 +12,8 @@ options:bn(64,64) rc4(16x,int) des(long) aes(partial) idea(int) blowfish(ptr)
 compiler: cl.exe /Zi /Fdossl_static.pdb /Gs0 /GF /Gy /MD /W3 /wd4090 /nologo /O2 -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_CPUID_OBJ -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DKECCAK1600_ASM -DRC4_ASM -DMD5_ASM -DAESNI_ASM -DVPAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DX25519_ASM -DPOLY1305_ASM
                   sign    verify    sign/s verify/s
 rsa 1024 bits 0.000086s 0.000006s  11638.9 155734.6
+```
+## AES128
+```
+$ openssl speed -evp aes-128-cbc
 ```
