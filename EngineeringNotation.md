@@ -30,3 +30,5 @@ Time to try 50% of the keys = (0.5 * 2^192  ) / ( 5* 10^12) seconds
 Expected Sun lifetime = approximately 10 billion years = 
 1 billion = 1,000,000,000 has nine zeroes = 10^9 
 The sun lifetime scientific expected = 10e+ 10 and we need almost 4 times of that to try 50% of the keys for key length is 192 bits.
+---------------------------------------------
+472.690128340 × 109, or 472.7 billion.
