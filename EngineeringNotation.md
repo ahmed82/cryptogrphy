@@ -18,17 +18,11 @@
 
 1,000,000,000 has nine zeroes = 10^9, which equals ONE BILLION.
 ---------------------------------------------------------------
-By conduct the brute force attack, Attacker need to try 2 ^192 possible attempts to find the key.
-To find 50% of the keys, the attacker should try (2^192) * 0.5.
-1,000,000 * 5,000,000 = 5 * 10 ^ 12
-Time to try 50% of the keys = (0.5 * 2^192  ) / ( 5* 10^12) seconds
-= 6.2771017e+44 or 6.2771017* 10^44 Seconds
-(6.2771017* 10^44)/(3600*24*365) = 1.9905 *10^37 Years.
 
-(6.2771017* 10^44)/(3600*24*365) = 1.9904559e+37
 
 Expected Sun lifetime = approximately 10 billion years = 
 1 billion = 1,000,000,000 has nine zeroes = 10^9 
-The sun lifetime scientific expected = 10e+ 10 and we need almost 4 times of that to try 50% of the keys for key length is 192 bits.
+The sun lifetime scientific 
+`expected = 10e+ 10'
 ---------------------------------------------
 472.690128340 × 109, or 472.7 billion.
