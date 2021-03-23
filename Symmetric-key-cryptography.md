@@ -1,5 +1,5 @@
 # Symmetric key cryptography
-
+Sender and receiver need to share the same key
 ## Types
 * Stream Ciphers
 * Block Ciphers
@@ -20,4 +20,6 @@ Use a fix length key to encrypted a fixed length block of data.
 ### Real word
 * DES `using 64-bit for the blocksize and 56-bit key size`
 * AES `using 128-bit for the blocksize and verity of key size 128, 192 or 256 bit key size`
-* 
+Block cyphers only encrypt chuck of data that has the right block size.
+This is the important property of block cyphers that the PT (plaintext) to CT (cyphered text) mappings must be 1-to-1 for a given key.
+In conclusion the same PT always become the same CT and vice versa.
